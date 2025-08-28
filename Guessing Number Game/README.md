@@ -16,7 +16,7 @@ A playful JavaScript mini project where the player tries to guess a randomly gen
 
 ### 🖼️ Preview
 
-![Game Screenshot](./assets/ui_ss.png.png)
+![Game Screenshot](/Guessing%20Number%20Game/assets/ui_ss.png.png)
 
 ---
 
