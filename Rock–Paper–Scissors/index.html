@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/Favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <div class="sectionText">
+      <h1>Can you be Me❓ 🤖</h1>
+      <p>Score5️⃣to win!</p>
+    </div>
+
+    <section class="hero">
+      <div class="card1">
+        <div class="choices">
+          <button id="rock" class="btn">✊ Rock</button>
+          <button id="paper" class="btn">✋ Paper</button>
+          <button id="scissors" class="btn">✌️ Scissors</button>
+        </div>
+      </div>
+
+      <div class="card2">
+        <h1>Playground</h1>
+        <!--Round No.-->
+        <p id="round-no"></p>
+
+        <!-- Scoreboard -->
+        <div class="interface">
+          <img src="" alt="" id="interfaceImg" class="winner-img" />
+          <div id="you">
+            <div id="you-score"></div>
+            <div id="you-gesture">
+              <img
+                id="yourGesture"
+                alt="Your Gesture"
+                src="./assets/Favicon.png"
+              />
+            </div>
+          </div>
+
+          <div id="computer">
+            <div id="computer-score"></div>
+            <div id="computer-gesture">
+              <img
+                src="./assets/cuteBot.png"
+                alt="Computer's Gesture"
+                id="computerGesture"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--Result-->
+        <p id="result"></p>
+
+        <!-- New Game -->
+        <button id="newGame" class="btn">New Game</button>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <div id="footer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
