@@ -42,8 +42,11 @@ Compete against the computer 🤖, track scores, enjoy confetti effects on winni
 
 ## 📸 Screenshots
 
-`![Game Screenshot](/Rock–Paper–Scissors/assets/RockPaperScissors.jpeg)`
+![Game Screenshot](/Rock–Paper–Scissors/assets/RockPaperScissors.jpeg)
 
 ---
 
 ### 🧠 Author
+
+**Jayasmita De**  
+Visionary learner blending logic, design, and storytelling.
