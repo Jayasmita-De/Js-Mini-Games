@@ -114,9 +114,9 @@ body {
   gap: 20px;
 }
 
-.winner-img {
+#interfaceImg {
   width: 40%;   /* parent ka 40% lega */
-  display: block;
+  display: none;
   margin: 0 auto; /* center me lane ke liye */
 }
 
@@ -150,6 +150,12 @@ body {
 
 #computerGesture{
   width: 60%;
+}
+
+.score{
+ background-color: #333;
+ color: white;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Media Querry */

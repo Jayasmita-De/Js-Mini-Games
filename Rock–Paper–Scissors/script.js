@@ -1,7 +1,3 @@
-// Tomorrow you'll add:
-// 4. Score update
-// 5. Restart functionality
-
 fetch("header.html")
   .then((res) => res.text())
   .then((data) => (document.getElementById("header").innerHTML = data));
@@ -61,11 +57,16 @@ function decider(userChoice) {
   if (userPoints === 3 || computerPoints === 3) {
     if (userPoints > computerPoints) {
       interfaceImg.src = "./assets/Favicon.png";
-      interfaceImg.classList.add("winner-img");
+      interfaceImg.style.display = "block";
       result.textContent = "🎉 You Win!";
+      confetti({
+        particleCount: 150,
+        spread: 150,
+        origin: { y: 0.2 }, // upar se niche
+      });
     } else {
       interfaceImg.src = "./assets/cuteBot.png";
-      interfaceImg.classList.add("winner-img");
+      interfaceImg.style.display = "block";
       result.textContent = "💻 Computer Wins!";
     }
     document.getElementById("you").style.display = "none";
@@ -87,7 +88,7 @@ function restart() {
   gameOver = false; // reset game state
   document.getElementById("you").style.display = "block";
   document.getElementById("computer").style.display = "block";
-  interfaceImg.classList.remove("winner-img");
+  interfaceImg.style.display = "none";
 }
 
 document.getElementById("rock").addEventListener("click", () => {
